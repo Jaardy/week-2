@@ -1,0 +1,29 @@
+{
+  "name": "hip-hip-array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challenges.js",
+  "scripts": {
+    "test": "jest --bail --runInBand --testSequencer=./test/testSequencer.js",
+    "test:all": "jest --runInBand",
+    "test:levelUp": "jest ./test/levelUp.test.js",
+    "test:copyPaste": "jest ./test/copyPaste.test.js",
+    "test:cleanUp": "jest ./test/cleanUp.test.js",
+    "test:bigWords": "jest ./test/bigWords.test.js",
+    "test:targetPractice": "jest ./test/targetPractice.test.js",
+    "test:rotate": "jest ./test/rotate.test.js",
+    "test:unduplicate": "jest ./test/unduplicate.test.js",
+    "test:arraySameOrdered": "jest ./test/arraySameOrdered.test.js",
+    "test:arraySameUnordered": "jest ./test/arraySameUnordered.test.js",
+    "test:stepCount": "jest ./test/stepCount.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2"
+  }
+}
