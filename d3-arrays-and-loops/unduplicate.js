@@ -6,8 +6,8 @@
  * @returns {number[]}
  */
 
-function unduplicate (arr) {
+function unduplicate(arr) {
   // code here
 }
 
-module.exports = { unduplicate }
+module.exports = { unduplicate };
