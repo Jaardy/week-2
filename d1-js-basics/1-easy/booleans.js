@@ -8,10 +8,6 @@ Log this new value to the console.
 
 function d1EasyBooleans() {
   //code goes here
-  let isDarkMode = false;
-  console.log(isDarkMode);
-  isDarkMode = true;
-  console.log(isDarkMode);
 }
 d1EasyBooleans();
 

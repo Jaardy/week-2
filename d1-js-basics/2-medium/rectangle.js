@@ -6,6 +6,4 @@ All functions will take two numbers as arguments: argument1 is width, argument2 
 3. Write a function that checks if the rectangle is a square.
 Code Below*/
 
-/*=====================================================================================
-Needed for Testing*/
 module.exports = { findArea, findPerimeter, isSquare };

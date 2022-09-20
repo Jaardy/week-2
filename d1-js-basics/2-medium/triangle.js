@@ -8,6 +8,4 @@ Each number given is the length of a line.
 =====================================================================================
 Code Below*/
 
-/*=====================================================================================
-Needed for Testing*/
 module.exports = { isTriangle, findPerimeter };
