@@ -19,9 +19,14 @@
     "test:d1:medium": "jest ./test/d1-js-basics/medium --silent --verbose --runInBand --bail",
     "test:d1:hard": "jest ./test/d1-js-basics/hard --silent --verbose --runInBand --bail",
     "test:d2": "jest ./test/d2-js-basics --silent --verbose --runInBand --bail",
-    "test:d2:easy": "jest ./test/d2-js-basics/easy --silent --verbose --runInBand --bail",
-    "test:d2:medium": "jest ./test/d2-js-basics/medium --silent --verbose --runInBand --bail",
-    "test:d2:hard": "jest ./test/d2-js-basics/hard --silent --verbose --runInBand --bail"
+    "test:d2:easy:planets-1": "jest ./test/d2-objects/easy/planets-1 --silent --verbose --runInBand",
+    "test:d2:easy:planets-2": "jest ./test/d2-objects/easy/planets-2 --silent --verbose --runInBand",
+    "test:d2:easy:string-methods": "jest ./test/d2-objects/easy/string-methods --silent --verbose --runInBand",
+    "test:d2:easy": "jest ./test/objects/easy --silent --verbose --runInBand --bail",
+    "test:d2:medium:split-the-bill": "jest ./test/d2-objects/medium/split-the-bill --silent --verbose --runInBand --bail",
+    "test:d2:medium": "jest ./test/d2-objects/medium --silent --verbose --runInBand --bail",
+    "test:d2:hard:spaceFacts": "jest ./test/d2-objects/hard/spaceFacts --silent --verbose --runInBand",
+    "test:d2:hard": "jest ./test/objects/hard --silent --verbose --runInBand --bail"
   },
   "author": "",
   "license": "ISC",
