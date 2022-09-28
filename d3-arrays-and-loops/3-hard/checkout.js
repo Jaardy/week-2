@@ -13,11 +13,6 @@ let itemsList = {
   },
 };
 
-for (item in itemsList) {
-  Object.freeze(itemsList[item]);
-}
-Object.freeze(itemsList);
-
 let checkout = {
   items: [],
   weight: 0,
@@ -40,7 +35,3 @@ let checkout = {
     return finalCost;
   },
 };
-checkout.scanItems([itemsList.milk, itemsList.milk, itemsList.bread, itemsList.cheese]);
-console.log(checkout.items, checkout.cost, checkout.weight);
-checkout.removeItem(itemsList.bread);
-console.log(checkout.items, checkout.cost, checkout.weight);
