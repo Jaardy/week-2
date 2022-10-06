@@ -10,18 +10,6 @@
                                   If this happens, do not add the number, and return "Shift limit exceeded."  
 */
 
-let employee = {
-  weeklyHours: [7, 6, 7, 7],
-  getTotalHours() {
-    return this.weeklyHours.reduce((acc, h) => (acc += h));
-  },
-  addShift(shiftLength) {
-    if (this.weeklyHours.length >= 5 || this.getTotalHours() + shiftLength > 40) {
-      return 'Shift limit reached.';
-    }
-    this.weeklyHours.push(shiftLength);
-    return 'Shift added.';
-  },
-};
-
+let employee = {};
+// Test command (in terminal) "npm run test:d3:medium"
 module.exports = { employee };

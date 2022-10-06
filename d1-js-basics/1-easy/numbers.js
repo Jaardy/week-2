@@ -17,4 +17,5 @@ function d1EasyNumbers() {
 }
 d1EasyNumbers();
 
+// Test command (in terminal) "npm run test:d1:easy:numbers"
 module.exports = { d1EasyNumbers };

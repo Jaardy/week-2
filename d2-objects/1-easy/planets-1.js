@@ -19,4 +19,5 @@ let mercury = {};
 
 let mars = {};
 
+// Test command (in terminal) "npm run test:d2:easy:planets-1"
 module.exports = { mercury, venus, earth, mars };

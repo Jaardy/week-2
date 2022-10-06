@@ -24,4 +24,5 @@ Methods - setAgeInEarthDays(birthday)
 
 */
 
+// Test command (in terminal) "npm run test:d2:hard:spaceFacts"
 module.exports = { spaceStats };

@@ -9,4 +9,6 @@
 const d1EasyConditionals = (sides) => {
   //Code goes here
 };
+
+// Test command (in terminal) "npm run test:d1:easy:conditionals"
 module.exports = { d1EasyConditionals };

@@ -8,4 +8,5 @@ Each number given is the length of a line.
 =====================================================================================
 Code Below*/
 
+// Test command (in terminal) "npm run test:d1:medium:triangle"
 module.exports = { isTriangle, findPerimeter };

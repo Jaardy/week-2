@@ -16,4 +16,5 @@ eg mercury.yearLength => 88
 eg mercury.getYearLength() => 88 (Earth Days)
 */
 
+// Test command (in terminal) "npm run test:d2:easy:planets-2"
 module.exports = { mercury, venus, earth, mars };

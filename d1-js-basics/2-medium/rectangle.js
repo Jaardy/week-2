@@ -6,4 +6,5 @@ All functions will take two numbers as arguments: argument1 is width, argument2 
 3. Write a function that checks if the rectangle is a square.
 Code Below*/
 
+// Test command (in terminal) "npm run test:d1:medium:rectangle"
 module.exports = { findArea, findPerimeter, isSquare };

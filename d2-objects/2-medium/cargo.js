@@ -6,5 +6,5 @@
     how much weight they are under or over to balance the three ships. 
 
  */
-
+// Test command (in terminal) "npm run test:d2:medium:cargo"
 module.exports = { cargo };

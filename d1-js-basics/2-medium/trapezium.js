@@ -5,4 +5,5 @@ It will return the area of the trapezium.
 =====================================================================================
 Code Below*/
 
+// Test command (in terminal) "npm run test:d1:medium:trapezium"
 module.exports = { findArea };

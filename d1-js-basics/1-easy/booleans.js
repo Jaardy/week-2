@@ -11,4 +11,5 @@ function d1EasyBooleans() {
 }
 d1EasyBooleans();
 
+// Test command (in terminal) "npm run test:d1:easy:booleans"
 module.exports = { d1EasyBooleans };
