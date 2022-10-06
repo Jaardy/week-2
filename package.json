@@ -32,8 +32,10 @@
     "test:d3": "jest ./test/d2-arrays-and-loops --silent --verbose --runInBand --bail",
     "test:d3:easy": "jest ./test/d3-arrays-and-loops/easy --silent --verbose --runInBand --bail",
     "test:d3:easy:loops": "jest ./test/d3-arrays-and-loops/easy/loops --silent --verbose --runInBand",
+    "test:d3:easy:arrays": "jest ./test/d3-arrays-and-loops/easy/arrays --silent --verbose --runInBand",
     "test:d3:medium": "jest ./test/d3-arrays-and-loops/medium --silent --verbose --runInBand --bail",
-    "test:d3:hard": "jest ./test/d3-arrays-and-loops/hard --silent --verbose --runInBand --bail"
+    "test:d3:hard": "jest ./test/d3-arrays-and-loops/hard --silent --verbose --runInBand --bail",
+    "test:extras": "jest ./test/extras --silent --verbose --runInBand --bail"
   },
   "author": "",
   "license": "ISC",
