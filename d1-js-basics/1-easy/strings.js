@@ -16,4 +16,5 @@ function d1EasyStrings() {
 }
 d1EasyStrings();
 
+// Test command (in terminal) "npm run test:d1:easy:strings"
 module.exports = { d1EasyStrings };

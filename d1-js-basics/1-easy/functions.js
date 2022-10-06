@@ -6,4 +6,5 @@
         Log it to the console.
 */
 
+// Test command (in terminal) "npm run test:d1:easy:functions"
 module.exports = { outsideVoice, addThreeTripled };
